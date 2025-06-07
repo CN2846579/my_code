@@ -1,16 +1,9 @@
 #pragma once
-#include <string.h>
-#include <SDL.h>
-#include"gdi.h"
 #include"WndBase.h"
-#include <basetsd.h>
-#include<thread>
-#define SURFACE_MODE 0
-#define RENDER_MODE 1
+#include"WndGdi.h"
 class SDL_WND:public WndBase
 {
 public:
-	bool PAINT_MODE;
 	~SDL_WND(){
 		SDL_DestroyRenderer(Renderer);
 		SDL_DestroyWindow(window);

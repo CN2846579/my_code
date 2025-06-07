@@ -1,12 +1,12 @@
 ﻿  sdl.cpp
 C:\Users\Administrator\source\repos\SDL\sdl.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-C:\Users\Administrator\source\repos\SDL\gdi.h(6,44): warning C4244: “参数”: 从“short”转换到“Uint8”，可能丢失数据
+C:\Users\Administrator\source\repos\SDL\WndGdi.h(7,44): warning C4244: “参数”: 从“short”转换到“Uint8”，可能丢失数据
   (编译源文件“sdl.cpp”)
   
-C:\Users\Administrator\source\repos\SDL\gdi.h(6,41): warning C4244: “参数”: 从“short”转换到“Uint8”，可能丢失数据
+C:\Users\Administrator\source\repos\SDL\WndGdi.h(7,41): warning C4244: “参数”: 从“short”转换到“Uint8”，可能丢失数据
   (编译源文件“sdl.cpp”)
   
-C:\Users\Administrator\source\repos\SDL\gdi.h(6,38): warning C4244: “参数”: 从“short”转换到“Uint8”，可能丢失数据
+C:\Users\Administrator\source\repos\SDL\WndGdi.h(7,38): warning C4244: “参数”: 从“short”转换到“Uint8”，可能丢失数据
   (编译源文件“sdl.cpp”)
   
   SDL.vcxproj -> C:\Users\Administrator\source\repos\SDL\x64\Debug\SDL.exe

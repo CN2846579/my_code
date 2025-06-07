@@ -10,17 +10,19 @@ inline void SDL_WND::ShowWindow()
 	if (!window) {
 		printf("Window create failed: %s\n", SDL_GetError());
 	}
-	if (PAINT_MODE==SURFACE_MODE){
-	surface = SDL_GetWindowSurface(window);
-    }
+	else printf("Window created successfully\n");
+	if (PAINT_MODE == SURFACE_MODE) {
+		surface = SDL_GetWindowSurface(window);
+		if (surface)printf("Surface created successfully\n");
+	}
 	else {
 		Renderer = SDL_CreateRenderer(window, -1, 0);
 		if (!Renderer) {
 			printf("Renderer create failed: %s\n", SDL_GetError());
 		}
+		else printf("Renderer created successfully\n");
 	}
 	SetBkColor(this->BkColor);
-	
 }
 
 inline void SDL_WND::SetWindowRect(int x, int y, int width, int height) {

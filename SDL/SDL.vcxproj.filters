@@ -29,10 +29,13 @@
     <ClInclude Include="WndSDL_.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="gdi.h">
+    <ClInclude Include="WndGdi.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="WndBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WndVoice.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

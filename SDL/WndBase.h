@@ -1,5 +1,9 @@
 #pragma once
-#include<cstdio>
+#include <string.h>
+#include <SDL.h>
+#include <basetsd.h>
+#include<thread>
+#include<stdio.h>
 class WndBase
 {
 public:
@@ -27,10 +31,12 @@ public:
 	virtual void ShowWindow();
 protected:
 	SDL_Renderer* Renderer = nullptr;
-	RECT rect;
-	char title[64];
 	SDL_Surface* surface = nullptr;
 	SDL_Window* window = nullptr;
+	bool PAINT_MODE;
+	RECT rect;
+	char title[64];
+	UINT32 BkColor = 0;
 	int x;
 	int y;
 	int width;
